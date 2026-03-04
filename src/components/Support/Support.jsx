@@ -5,7 +5,7 @@ import Tasks from "../Tasks/Tasks";
 const Support = ({ serviceData, customSup, setCustomSup, removedTask, resolve }) => {
   const services = use(serviceData);
   return (
-    <div className="flex flex-wrap justify-between gap-5">
+    <div className="flex flex-wrap-reverse justify-between gap-5">
       <div className="flex-1">
         <Customers customSup={customSup} setCustomSup={setCustomSup} services={services} />
       </div>

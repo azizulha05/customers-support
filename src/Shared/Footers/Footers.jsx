@@ -2,15 +2,16 @@ import React from "react";
 
 const Footers = () => {
   return (
-    <div>
-      <footer className="flex flex-col lg:flex-row justify-evenly  gap-5 bg-neutral text-neutral-content p-10">
+    <div className="bg-neutral text-neutral-content p-10 space-y-4">
+      <footer className="flex flex-col lg:flex-row justify-evenly  gap-5 ">
         <div className=" w-full lg:w-72">
           <nav className="flex flex-col ">
             <h6 className="footer-title">CS — Ticket System</h6>
             <p className="text-xs text-justify">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-              has been the industry's standard dummy text ever since the 1500s, when an unknown
-              printer took a galley of type and scrambled it to make a type specimen book.
+              A CS Ticket System manages customer issues efficiently by allowing ticket submission,
+              tracking, and prioritization. It ensures timely resolution, clear communication, and
+              performance monitoring, centralizing support operations to enhance service quality and
+              prevent unresolved queries.
             </p>
           </nav>
         </div>
@@ -42,6 +43,7 @@ const Footers = () => {
           </nav>
         </div>
       </footer>
+      <h2 className="text-center">&copy; 2026 All rights reserved.</h2>
     </div>
   );
 };
