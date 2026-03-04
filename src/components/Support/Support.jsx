@@ -2,7 +2,7 @@ import React, { use } from "react";
 import Customers from "../Customers/Customers";
 import Tasks from "../Tasks/Tasks";
 
-const Support = ({ serviceData, customSup, setCustomSup, removedTask }) => {
+const Support = ({ serviceData, customSup, setCustomSup, removedTask, resolve }) => {
   const services = use(serviceData);
   return (
     <div className="flex flex-wrap justify-between gap-5">
@@ -10,7 +10,7 @@ const Support = ({ serviceData, customSup, setCustomSup, removedTask }) => {
         <Customers customSup={customSup} setCustomSup={setCustomSup} services={services} />
       </div>
       <div className="w-full md:w-68">
-        <Tasks removedTask={removedTask} customSup={customSup} />
+        <Tasks resolve={resolve} removedTask={removedTask} customSup={customSup} />
       </div>
     </div>
   );

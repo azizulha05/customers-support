@@ -1,11 +1,13 @@
 import React from "react";
 import { GoDotFill } from "react-icons/go";
 import { SlCalender } from "react-icons/sl";
+import { toast } from "react-toastify";
 
 const Customer = ({ service, customSup, setCustomSup }) => {
   const { createdAt, status, priority, customer, description, title, id } = service;
 
   const handelSup = (ser) => {
+    toast("Check this problem!");
     setCustomSup([...customSup, ser]);
   };
   return (
