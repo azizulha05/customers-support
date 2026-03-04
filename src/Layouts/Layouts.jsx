@@ -3,6 +3,8 @@ import Footers from "../Shared/Footers/Footers";
 import NavBar from "../Shared/Headers/NavBar";
 import Support from "../components/Support/Support";
 
+const serviceData = fetch("customerServices.json").then((res) => res.json());
+
 const Layouts = () => {
   return (
     <div className="bg-[#F5F5F5] space-y-5">
@@ -11,7 +13,7 @@ const Layouts = () => {
           <NavBar />
         </div>
         <div>
-          <Support />
+          <Support serviceData={serviceData} />
         </div>
       </div>
       <div>

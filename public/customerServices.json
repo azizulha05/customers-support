@@ -1,0 +1,137 @@
+[
+  {
+    "id": "TCK-100001",
+    "title": "Login page not loading",
+    "description": "User unable to access login page after recent update.",
+    "customer": "Rahim Uddin",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-01"
+  },
+  {
+    "id": "TCK-100002",
+    "title": "Payment gateway error",
+    "description": "Transaction fails during checkout process.",
+    "customer": "Karim Ahmed",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": "TCK-100003",
+    "title": "Profile image upload issue",
+    "description": "System not accepting image files larger than 2MB.",
+    "customer": "Nusrat Jahan",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": "TCK-100004",
+    "title": "Dashboard data mismatch",
+    "description": "Sales report numbers not matching database records.",
+    "customer": "Sabbir Hossain",
+    "priority": "High",
+    "status": "Resolved",
+    "createdAt": "2026-03-04"
+  },
+  {
+    "id": "TCK-100005",
+    "title": "Email notifications not sending",
+    "description": "Users not receiving password reset emails.",
+    "customer": "Farzana Akter",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-03-05"
+  },
+  {
+    "id": "TCK-100006",
+    "title": "Slow page loading speed",
+    "description": "Homepage taking more than 10 seconds to load.",
+    "customer": "Hasan Mahmud",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-06"
+  },
+  {
+    "id": "TCK-100007",
+    "title": "Incorrect password validation",
+    "description": "System accepting weak passwords without validation.",
+    "customer": "Jannatul Ferdous",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-07"
+  },
+  {
+    "id": "TCK-100008",
+    "title": "Mobile view layout broken",
+    "description": "UI elements overlapping in mobile responsive mode.",
+    "customer": "Tanvir Islam",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-03-08"
+  },
+  {
+    "id": "TCK-100009",
+    "title": "Search function not working",
+    "description": "No results showing even for valid keywords.",
+    "customer": "Mim Rahman",
+    "priority": "Critical",
+    "status": "Open",
+    "createdAt": "2026-03-09"
+  },
+  {
+    "id": "TCK-100010",
+    "title": "Database connection timeout",
+    "description": "Frequent timeout errors when accessing database.",
+    "customer": "Rafiul Karim",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2026-03-10"
+  },
+  {
+    "id": "TCK-100011",
+    "title": "Broken link on footer",
+    "description": "Privacy policy link returning 404 error.",
+    "customer": "Shamima Akter",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2026-03-11"
+  },
+  {
+    "id": "TCK-100012",
+    "title": "File download issue",
+    "description": "Users unable to download PDF reports.",
+    "customer": "Imran Hossain",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-12"
+  },
+  {
+    "id": "TCK-100013",
+    "title": "Session expires too quickly",
+    "description": "Users logged out automatically within 5 minutes.",
+    "customer": "Sumaiya Khan",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-03-13"
+  },
+  {
+    "id": "TCK-100014",
+    "title": "Incorrect invoice calculation",
+    "description": "Tax calculation error in invoice summary.",
+    "customer": "Arif Hossain",
+    "priority": "Critical",
+    "status": "Open",
+    "createdAt": "2026-03-14"
+  },
+  {
+    "id": "TCK-100015",
+    "title": "API returning 500 error",
+    "description": "Internal server error when fetching user data.",
+    "customer": "Tania Rahman",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2026-03-15"
+  }
+]
