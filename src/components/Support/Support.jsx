@@ -2,15 +2,15 @@ import React, { use } from "react";
 import Customers from "../Customers/Customers";
 import Tasks from "../Tasks/Tasks";
 
-const Support = ({ serviceData }) => {
+const Support = ({ serviceData, customSup, setCustomSup, removedTask }) => {
   const services = use(serviceData);
   return (
     <div className="flex flex-wrap justify-between gap-5">
       <div className="flex-1">
-        <Customers services={services} />
+        <Customers customSup={customSup} setCustomSup={setCustomSup} services={services} />
       </div>
       <div className="w-full md:w-68">
-        <Tasks />
+        <Tasks removedTask={removedTask} customSup={customSup} />
       </div>
     </div>
   );

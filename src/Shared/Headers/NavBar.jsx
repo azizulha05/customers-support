@@ -2,11 +2,11 @@ import React from "react";
 import Headers from "./Headers";
 import Banner from "./Banner";
 
-const NavBar = () => {
+const NavBar = ({ customSup }) => {
   return (
     <div>
       <Headers />
-      <Banner />
+      <Banner customSup={customSup} />
     </div>
   );
 };

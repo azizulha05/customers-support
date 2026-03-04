@@ -2,12 +2,15 @@ import React from "react";
 import { GoDotFill } from "react-icons/go";
 import { SlCalender } from "react-icons/sl";
 
-const Customer = ({ service }) => {
-  console.log(service);
+const Customer = ({ service, customSup, setCustomSup }) => {
   const { createdAt, status, priority, customer, description, title, id } = service;
+
+  const handelSup = (ser) => {
+    setCustomSup([...customSup, ser]);
+  };
   return (
     <div className="space-y-3">
-      <div className="bg-white p-3 rounded  space-y-3">
+      <div onClick={() => handelSup(service)} className="bg-white p-3 rounded  space-y-3">
         <div className="flex justify-between items-center text-center ">
           <h2 className="text-[#001931] font-medium text-sm lg:text-xl">{title}</h2>
           <p
